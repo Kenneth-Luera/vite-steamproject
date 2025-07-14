@@ -63,8 +63,17 @@ export function LayoutUserBiblioteca() {
                         <p><strong>Desarrollador: </strong><br />{juegoSeleccionado.desarrollador}</p>
                     </div>
                 </div>
-            ) : (
-                <p className="mensaje-inicial">Selecciona un juego para ver los detalles</p>
+            ):
+            (
+                <div className='chargerimg'>
+                    <div className="loading">
+                        <div className="loading-box">
+                            <div className="WH color l1"></div>
+                            <div className="ball color"></div>
+                            <div className="WH color l2"></div>
+                        </div>
+                        </div>
+                </div>
             )}
             </div>
         </div>
